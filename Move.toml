@@ -1,0 +1,10 @@
+[package]
+name = 'split-or-steal'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'aptos-node-v1.5.0'
+subdir = 'aptos-move/framework/aptos-framework'
+[addresses]
+overmind = '0x1234'
+admin = '0x1337'
